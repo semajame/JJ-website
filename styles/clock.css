@@ -1,0 +1,22 @@
+.howlongagogo_p {
+  display: none;
+}
+
+h1 {
+  font-family: "Pixelify Sans", sans-serif !important;
+}
+
+.time {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: crimson;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cat {
+  margin-top: 2rem;
+  display: grid;
+  place-items: center;
+}

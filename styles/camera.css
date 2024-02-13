@@ -1,0 +1,30 @@
+body {
+  overflow-y: scroll;
+  font-family: "Pixelify Sans", sans-serif !;
+}
+
+.camera-container {
+  margin: 2rem auto;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  grid-template-columns: 400px 400px 400px;
+  gap: 2rem;
+  height: 100%;
+}
+
+.camera-container div img {
+  width: 200px;
+  object-fit: cover;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.camera-container div {
+  background-color: white;
+  padding: 1rem 1rem 5rem 1rem;
+}
+
+span {
+  color: black;
+}
